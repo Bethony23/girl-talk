@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 👩🏽‍💬 Girl Talk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Girl Talk** is a mental health support platform designed for students to securely connect with school counselors. Built as a full-stack web application, this platform offers secure authentication, messaging, and appointment scheduling with time slots.
 
-## Available Scripts
+## 🚀 Live Demo
+👉 [Live Site on Netlify](https://your-netlify-site-url.netlify.app)
 
-In the project directory, you can run:
+## 📂 Features
+- 📝 Sign Up & Log In
+- 👤 Authenticated user dashboard
+- 📬 Secure message system
+- 📅 Book appointments with counselors
+- 🕓 Select specific date & time slots
+- 🔒 Logout functionality
+- 💡 Conditional navigation visibility based on auth state
 
-### `npm start`
+## 🛠 Tech Stack
+- **Frontend**: React, CSS
+- **Backend**: Supabase (PostgreSQL)
+- **Hosting**: Netlify
+- **Auth**: Supabase Auth
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Folder Structure
+client/
+├── src/
+│ ├── pages/
+│ ├── components/
+│ └── supabaseClient.js
+└── build/
+server/
+└── auth.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://github.com/user-attachments/assets/1c342581-7d44-4746-a7a2-bc7fc2cd5aa3)
 
-### `npm test`
+![image](https://github.com/user-attachments/assets/74b6d2b3-26f2-4ae8-8f5a-83710dca8fff)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/user-attachments/assets/d5be9622-e28d-4470-a2a6-99e868cd0407)
 
-### `npm run build`
+This project was created as a final capstone for my software development degree. It demonstrates MVC structure, object-oriented principles, and full deployment to a live environment.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bethony Cousin
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

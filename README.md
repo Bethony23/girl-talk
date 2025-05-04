@@ -3,7 +3,7 @@
 **Girl Talk** is a mental health support platform designed for students to securely connect with school counselors. Built as a full-stack web application, this platform offers secure authentication, messaging, and appointment scheduling with time slots.
 
 ## 🚀 Live Demo
-👉 [Live Site on Netlify](https://your-netlify-site-url.netlify.app)
+👉 https://effortless-syrniki-80a060.netlify.app/
 
 ## 📂 Features
 - 📝 Sign Up & Log In
